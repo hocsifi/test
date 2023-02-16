@@ -1,22 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: demo-api
-  description:  demo-api
-  tags:
-    - demo
-    - rest
-  links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
-      icon: github
-    - url: https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml
-      title: API Spec
-      icon: code
+  name: petstore
+  description: The Petstore API
 spec:
   type: openapi
-  lifecycle: experimental
-  owner: team-c
+  lifecycle: production
+  owner: petstore@example.com
   definition:
     $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json
   

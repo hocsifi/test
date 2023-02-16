@@ -1,5 +1,3 @@
-131 lines (131 sloc)  3.39 KB
-
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:

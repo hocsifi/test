@@ -8,5 +8,5 @@ spec:
   lifecycle: production
   owner: sqi
   definition:
-    $json: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json
+    $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json
   

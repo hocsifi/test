@@ -8,5 +8,5 @@ spec:
   lifecycle: production
   owner: petstore@example.com
   definition:
-    $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json
+    $text: https://raw.githubusercontent.com/hocsifi/test/main/demo.yaml
   

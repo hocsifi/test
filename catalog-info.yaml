@@ -18,4 +18,4 @@ spec:
   lifecycle: experimental
   owner: team-c
   definition:
-    $yaml: https://raw.githubusercontent.com/hocsifi/test/main/demo.yaml
+    $json: https://raw.githubusercontent.com/hocsifi/test/main/demo.json

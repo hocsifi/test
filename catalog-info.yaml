@@ -15,7 +15,7 @@ metadata:
       icon: code
 spec:
   type: openapi
-  lifecycle: experimental
+  lifecycle: devsqi
   owner: team-c
   definition:
     $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json

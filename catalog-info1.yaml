@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-api1-git2
+  description:  demo-api1-git2
+  tags:
+    - demo-azure
+    - rest
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: devsqi
+  owner: team-c
+  definition:
+    $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json

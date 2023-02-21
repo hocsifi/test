@@ -5,6 +5,7 @@
       "description": "Version déployée: 20230210.1",
       "version": "v1"
     },
+   "servers":[{"url":"https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca"}],
     "paths": {
       "/api/v1/immeubles": {
         "get": {

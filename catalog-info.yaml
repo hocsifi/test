@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: demo-api1
+  name: demo-api1-wow
   description:  demo-api1
   tags:
     - demo
@@ -18,4 +18,4 @@ spec:
   lifecycle: devsqi
   owner: team-c
   definition:
-    $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v12/swagger.json
+    $text: https://raw.githubusercontent.com/hocsifi/test/main/demo.json

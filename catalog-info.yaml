@@ -4,7 +4,7 @@ metadata:
   name: PlateformeDemoApiv1
   description:  'Version déployee  20230221.13 test tes t'
   tags:
-    - developpement}
+    - developpement
     - rest
   links:
     - url: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/index.html

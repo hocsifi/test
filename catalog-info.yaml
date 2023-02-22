@@ -1,7 +1,7 @@
 apiVersion: backstage.io/api_revision
 kind: API
 metadata:
-  name: Plateforme.Demo.Api-v1
+  name: PlateformeDemoApiv1
   description:  'Version déployée: 20230221.13 test tes t'
   tags:
     - developpement}

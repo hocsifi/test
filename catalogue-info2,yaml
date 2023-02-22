@@ -1,0 +1,17 @@
+apiVersion: backstage.io/api_revision
+kind: API
+metadata:
+  name: Plateforme.Demo.Api-v1-test-test
+  description:  'Version déployée: 20230221.13'
+  tags:
+    - developpement
+    - rest
+  links:
+    - url: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/index.html
+      title: swagger doc
+spec:
+  type: openapi
+  lifecycle: devsqi
+  owner: team-c
+  definition:
+    $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json

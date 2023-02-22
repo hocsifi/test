@@ -1,21 +1,17 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/api_revision
 kind: API
 metadata:
-  name: demo-api1-wow
-  description:  demo-api1
+  name: Plateforme.Demo.Api-v1
+  description:  'Version déployée: 20230221.13 test tes t'
   tags:
-    - demo
+    - developpement}
     - rest
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
-      icon: github
-    - url: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json
-      title: API Spec
-      icon: code
+    - url: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/index.html
+      title: swagger doc
 spec:
   type: openapi
   lifecycle: devsqi
   owner: team-c
   definition:
-    $text: https://raw.githubusercontent.com/hocsifi/test/main/demo.json
+    $text: https://apidemo-informatique-developpement.apps.dev.sqi.gouv.qc.ca/swagger/v1/swagger.json

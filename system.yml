@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: apidemo-informatique
+spec:
+  owner: sqi
